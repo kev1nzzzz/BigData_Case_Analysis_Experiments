@@ -7,6 +7,8 @@
     {
       "title": "泰坦尼克乘客生存预测",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
+      "binds": ["/kfcampus/public:/root/Desktop/myFile"],
+      "binds": ["/userfile:/data:ro"],
       "steps": [
         {
           "title": "泰坦尼克乘客生存预测",
@@ -19,6 +21,8 @@
     {
       "title": "用声音预测性别",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
+      "binds": ["/kfcampus/public:/root/Desktop/myFile"],
+      "binds": ["/userfile:/data:ro"],
       "steps": [
         {
           "title": "用声音预测性别",
