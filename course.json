@@ -7,8 +7,7 @@
     {
       "title": "泰坦尼克乘客生存预测",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
-      "binds": ["/kfcampus/public:/root/Desktop/myFile"],
-      "binds": ["/userfile:/data:ro"],
+      "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
           "title": "泰坦尼克乘客生存预测",
@@ -21,8 +20,7 @@
     {
       "title": "用声音预测性别",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
-      "binds": ["/kfcampus/public:/root/Desktop/myFile"],
-      "binds": ["/userfile:/data:ro"],
+      "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
           "title": "用声音预测性别",
@@ -35,6 +33,7 @@
     {
       "title": "优秀员工离职原因分析与预测",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
+      "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
           "title": "优秀员工离职原因分析与预测",
@@ -47,6 +46,7 @@
     {
       "title": "影响学生招生的因素",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
+      "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
           "title": "影响学生招生的因素",
@@ -59,6 +59,7 @@
     {
       "title": "电信行业客户流失分析",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
+      "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
           "title": "电信行业客户流失分析",
